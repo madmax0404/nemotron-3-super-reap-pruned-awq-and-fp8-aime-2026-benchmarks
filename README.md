@@ -46,7 +46,7 @@ Run: `bash src/start_vllm_server.sh` (or `_fp8.sh`), then `python src/benchmark_
 
 | Variant | avg@4 | pass@4 | tool use |
 |---------|----------------------:|---------------------:|---:|
-| [Base model](https://matharena.ai/?view=problem&comp=aime--aime_2026) | **0.9000** | n\a | no |
+| [120B base model](https://matharena.ai/?view=problem&comp=aime--aime_2026) | **0.9000** | n\a | no |
 | [AWQ](notebooks/002_results_eda.ipynb)     | **0.9083** | **0.9333** | no |
 | [FP8](notebooks/003_results_eda_fp8.ipynb)     | **0.9167** | **0.9667** | no |
 
