@@ -96,6 +96,15 @@ Columns: `problem_idx`, `attempt_idx`, `expected_answer`, `reasoning`, `answer`,
   url    = {https://arxiv.org/abs/2512.20856},
   note   = {White Paper}
 }
+
+@inproceedings{
+    lasby2026reap,
+    title={{REAP} the Experts: Why Pruning Prevails for One-Shot MoE compression},
+    author={Mike Lasby and Ivan Lazarevich and Nish Sinnadurai and Sean Lie and Yani Ioannou and Vithursan Thangarasa},
+    booktitle={The Fourteenth International Conference on Learning Representations},
+    year={2026},
+    url={https://openreview.net/forum?id=ukGxWd2aDG}
+}
 ```
 
 
