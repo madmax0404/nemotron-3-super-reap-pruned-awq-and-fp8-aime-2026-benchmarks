@@ -30,8 +30,8 @@ The REAP-pruned model then has been LoRA RL fine-tuned briefly with 2 problems o
 
 | Variant | Model | Quantization | `max-model-len` |
 |---------|-------|--------------|------------------|
-| AWQ     | [Max-and-Omnis/Nemotron-3-Super-Math-REAP-AWQ](https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-Math-REAP-AWQ) | W4A16 (AWQ INT4) | 262,144 |
-| FP8     | [Max-and-Omnis/Nemotron-3-Super-Math-REAP-FP8](https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-Math-REAP-FP8) | W8A8 (FP8 dynamic) | 262,144 |
+| AWQ     | [Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-AWQ](https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-AWQ) | W4A16 (AWQ INT4) | 262,144 |
+| FP8     | [Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-FP8](https://huggingface.co/Max-and-Omnis/Nemotron-3-Super-64B-A12B-Math-REAP-FP8) | W8A8 (FP8 dynamic) | 262,144 |
 
 Run: `bash src/start_vllm_server.sh` (or `_fp8.sh`), then `python src/benchmark_aime_2026.py` (or `_fp8.py`).
 
